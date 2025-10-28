@@ -16,7 +16,7 @@ if "logged_in" not in st.session_state:
 if "chat_state" not in st.session_state:
     st.session_state.chat_state = {"step": 0, "inputs": {}}
 
-VALID_USERS = {"emp001": "123", "admin": "123"}
+VALID_USERS = {"emp001": "123", "admin": "Adminprivilage@45786"}
 
 # -----------------------------
 # FUNCTIONS
@@ -150,3 +150,4 @@ else:
     if st.button("🔄 Restart Chat"):
         st.session_state.chat_state={"step":0,"inputs":{}}
         st.rerun()
+
